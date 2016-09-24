@@ -1,0 +1,57 @@
+/* ----------------------------------------------------------------------------
+ *
+ *	 Project 2C: Lock Granularity and Performance
+ *		CS 111 Spring 2016 -- UCLA
+ *		Lucen Li (504558582)
+ *		README
+ *
+ * ----------------------------------------------------------------------------
+*/
+
+This tarball includes the following files:
+-- SortedList.h: a header file containing interfaces for linked list operations.
+-- SortedList.c: the source for a C source module implementing insert, delete, lookup, and length methods for a sorted doubly linked list
+-- lab2c.c: the source for a C program that drives one or more parallel threads that do operations on a shared linked list, and reports on the final list and performance.
+-- Makefile: to build the program and the tarball
+-- graph:
+	graph_first.png: (corrected) average time per operation (for none, mutex, and spin-lock) vs the ratio of threads per list.
+-- this README file
+
+
+QUESTION 2C.1A
+Explain the change in performance of the synchronized methods as a function of the number of threads per list.
+ANSWER: As the number of threads per list increases, time cost increases. It is because the more the number of threads, the more chance of conflicts will happen.
+
+
+QUESTION 2C.1B
+Explain why threads per list is a more interesting number than threads (for this particular measurement).
+ANSWER: Threads per list is a more interesting number because it provides a notion of memory contention. When threads per list is less than 1, the probability of memory contention is less, while when threads per list is greater, it means more memory conflict.
+
+QUESTION 2C.2A
+Compare the time per operation when increasing the lists value. Explain your observations.
+ANSWER: When the value of list increases, time per operation drops. Here the operation means function call (insert, get list length, lookup, delete). It is because of two reasons. First, the increase of lists value can reduce the chance of memory contention. Second, when the lists value increases, the number of element in each list will drop. But when the number of list is really large, time overhead will dominate wall time and should be taken into consideration.
+
+QUESTION 2C.2B
+Compare the time per operation between mutex and spinlock. Explain your observations.
+ANSWER: In my observation, spinlock is faster then mutex.
+
+QUESTIONS 2C.3A
+Why must the mutex be held when pthread_cond_wait is called?
+ANSWER: If the mutex is not held when pthread_cond_wait is called, another thread or preemption may change the condition variable "done", therefore the current thread cannot be put on the queue, which will result in forever sleep of current thread.
+
+QUESTION 2C.3B
+Why must the mutex be released when the waiting thread is blocked?
+ANSWER: If the mutex is not released, other thread will never change the condition variable, so the child process will sleep forever.
+
+QUESTION 2C.3C
+Why must the mutex be reacquired when the calling thread resumes?
+ANSWER: If mutex is not reacquired, the thread doesn’t have exclusive access to the condition variable "done", which means other threads may change it.
+
+QUESTION 2C.3D
+Why must mutex release be done inside of pthread_cond_wait?  Why can't the caller simply release the mutex before calling pthread_cond_wait?
+ANSWER: If caller simply release the mutex before calling pthread_cond_wait, the preempted process, or another thread may change the condition variable, which will result in forever sleep and never wake up.
+
+QUESTION 2C.3E
+Can pthread_cond_wait be implemented in user mode?  If so, how?  If it can only be implemented by a system call, explain why?
+ANSWER: No, pthread_cond_wait can only be implemented in kernel mode. Because in most systems, it is not possible to prevent preemption in user mode.
+

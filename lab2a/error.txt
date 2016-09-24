@@ -1,0 +1,186 @@
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -6751
+ERROR: final count = -34308
+ERROR: final count = -38511
+ERROR: final count = -25841
+ERROR: final count = -8745
+ERROR: final count = -34517
+ERROR: final count = -14275
+ERROR: final count = -16095
+ERROR: final count = -33954
+ERROR: final count = 15727
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -39668
+ERROR: final count = -40480
+ERROR: final count = -41714
+ERROR: final count = -19693
+ERROR: final count = -63331
+ERROR: final count = -56484
+ERROR: final count = -57146
+ERROR: final count = -36622
+ERROR: final count = -16345
+ERROR: final count = -38120
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -19627
+ERROR: final count = -27861
+ERROR: final count = -25210
+ERROR: final count = -19512
+ERROR: final count = -30068
+ERROR: final count = -24198
+ERROR: final count = -24880
+ERROR: final count = -26466
+ERROR: final count = -24031
+ERROR: final count = -45153
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -38890
+ERROR: final count = -23937
+ERROR: final count = -35502
+ERROR: final count = -43568
+ERROR: final count = -41742
+ERROR: final count = -41717
+ERROR: final count = -37524
+ERROR: final count = -7917
+ERROR: final count = -34818
+ERROR: final count = -6256
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -70684
+ERROR: final count = -35881
+ERROR: final count = -38733
+ERROR: final count = -20122
+ERROR: final count = -43930
+ERROR: final count = -20247
+ERROR: final count = -37953
+ERROR: final count = -12876
+ERROR: final count = -25075
+ERROR: final count = -53542
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -19903
+ERROR: final count = -35891
+ERROR: final count = -26197
+ERROR: final count = -33648
+ERROR: final count = -13373
+ERROR: final count = -32220
+ERROR: final count = -30095
+ERROR: final count = -27663
+ERROR: final count = -37695
+ERROR: final count = -36159
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -28467
+ERROR: final count = -42884
+ERROR: final count = -37458
+ERROR: final count = -19535
+ERROR: final count = -11486
+ERROR: final count = -31731
+ERROR: final count = -26477
+ERROR: final count = -12621
+ERROR: final count = -30097
+ERROR: final count = -27849
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -24112
+ERROR: final count = -37683
+ERROR: final count = -43236
+ERROR: final count = -22655
+ERROR: final count = -32188
+ERROR: final count = -18911
+ERROR: final count = -20894
+ERROR: final count = -38529
+ERROR: final count = -47844
+ERROR: final count = -49311
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -131229
+ERROR: final count = -154251
+ERROR: final count = -157775
+ERROR: final count = -148639
+ERROR: final count = -149288
+ERROR: final count = -161950
+ERROR: final count = -129905
+ERROR: final count = -144343
+ERROR: final count = -132806
+ERROR: final count = -153325
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -111695
+ERROR: final count = -155868
+ERROR: final count = -125445
+ERROR: final count = -137510
+ERROR: final count = -135094
+ERROR: final count = -127701
+ERROR: final count = -111138
+ERROR: final count = -127726
+ERROR: final count = -127575
+ERROR: final count = -124319
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -106954
+ERROR: final count = -107798
+ERROR: final count = -122270
+ERROR: final count = -112875
+ERROR: final count = -108968
+ERROR: final count = -90530
+ERROR: final count = -112590
+ERROR: final count = -98274
+ERROR: final count = -122333
+ERROR: final count = -98317
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -90769
+ERROR: final count = -133665
+ERROR: final count = -113113
+ERROR: final count = -111396
+ERROR: final count = -95664
+ERROR: final count = -45178
+ERROR: final count = -112195
+ERROR: final count = -124617
+ERROR: final count = -106799
+ERROR: final count = -89439
+./lab2a --iterations=100000 --threads=1
+ERROR: final count = -46292
+ERROR: final count = -24706
+ERROR: final count = -38315
+ERROR: final count = -43180
+ERROR: final count = -26128
+ERROR: final count = -36585
+ERROR: final count = -30289
+ERROR: final count = -45044
+ERROR: final count = -22
+ERROR: final count = -31404
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
+./lab2a --iterations=100000 --threads=1
