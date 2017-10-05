@@ -1,8 +1,8 @@
-#INFORMATION
+# INFORMATION
 My name : Dongdong Cai
 My ID# : 304587528
 
-#INCLUDED FILES
+# INCLUDED FILES
 * SortedList.h: a header file containing interfaces for linked list operations
 * SortedList.c: the source for a C source module that implements the interface in SortedList,h
 * lab2c.c: the source for the C program required by the spec 
@@ -14,7 +14,7 @@ My ID# : 304587528
 	lab2cfirst.png: the (corrected) per operation times (for each of the three synchronization options: unprotected, mutex, spin) vs the ratio of threads per list.
 * this README file
 
-#QUESTIONS
+# QUESTIONS
 Q1A: Explain the change in performance of the synchronized methods as a function of the number of threads per list.
 A: As the number of threads per list increases, time cost increases. It is because the more the number of threads per list, the more chance of conflicts will happen.
 

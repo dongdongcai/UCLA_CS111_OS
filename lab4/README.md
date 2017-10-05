@@ -1,8 +1,8 @@
-#INFORMATION
+# INFORMATION
 My name : Dongdong Cai
 My ID# : 304587528
 
-#INCLUDED FILES
+# INCLUDED FILES
 * tls_client.c: the source for the C program required by the spec 
 * 6 screenshots for UDP_client
 	1. First 10 lines of output of ./udp_client
@@ -22,7 +22,7 @@ My ID# : 304587528
 * Lab4-SecC-Q6.txt: The log file correspongding to the previous screenshot.
 * this README file
 
-#DESCRIPTION OF SCREENSHOTS AND LOG FILE
+# DESCRIPTION OF SCREENSHOTS AND LOG FILE
 Lab4-SecA-Q2:
 The output include the IP address of my Edison, the IP address and port of the server application, the sending rate of the message and the message the Edison sent and received. As it can be seen from the screenshot, Edison sent the heartbeat rate to the server and the server just echo the message.
 
