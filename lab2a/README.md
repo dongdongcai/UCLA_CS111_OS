@@ -1,8 +1,8 @@
-#INFORMATION
+# INFORMATION
 My name : Dongdong Cai
 My ID# : 304587528
 
-#INCLUDED FILES
+# INCLUDED FILES
 -- lab2a.c: a single C source modules 
 -- Makefile: to build the program and the tarball
 	make: build executable file
@@ -13,7 +13,7 @@ My ID# : 304587528
 	lab2asecond.png: the average time per operation vs the number of threads for all four versions of the add function
 -- this README file
 
-#QUESTIONS
+# QUESTIONS
 Q1A: Why does it take this many threads or iterations to result in failure?
 A: If the number of threads is low, the probability of add() function of one threads being interrpted by other threads is low as well. For example, if there is only one thread, the add() function would not be interrput and the program would not report any error. When the number of threads increase the probablity would increase as well, so the program would be more likely to report an error.
 
