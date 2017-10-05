@@ -1,8 +1,8 @@
-#INFORMATION
+# INFORMATION
 My name : Dongdong Cai
 My ID# : 304587528
 
-#INCLUDED FILES
+# INCLUDED FILES
 * lab3a.c: the source for the C program required by the spec 
 * Makefile: to build the program and the tarball
 	make: build executable file
